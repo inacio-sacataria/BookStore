@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="welcome_header_screen">Read your\nfavourite book\nfrom Angela Marressane.</string>
+    <string name="welcome_description_screen">Lorem Ipsum is simply dummy text of the\nprinting and typesetting industry.</string>
+    <string name="btn_description">Get Started</string>
+    <string name="login_descrition">Already have an account? </string>
+    <string name="login_text">Login</string>
+    <string name="credits">Made with Love by\nInacio Sacataria</string>
+
+    <!--Login-->
+    <string name="welcome_header_loginscreen">Welcome back! Glad\nto see you, Again!</string>
+
+</resources>
