@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/m_pedidos"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cart"
+        android:title="Pedidos"/>
+
+    <item
+        android:id="@+id/m_livros"
+        app:showAsAction="always"
+        android:title="Livros"
+        android:icon="@drawable/ic_book"/>
+
+    <item
+        android:id="@+id/m_categorias"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_category"
+        android:title="Categorias"/>
+
+<!--    <item-->
+<!--        android:id="@+id/m_leitores"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/ic_person"-->
+<!--        android:title="Leitores"/>-->
+</menu>

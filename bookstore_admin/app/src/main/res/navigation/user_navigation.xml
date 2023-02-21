@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/livrosFragment">
+
+    <fragment
+        android:id="@+id/pedidosFragement"
+        tools:layout="@layout/fragment_pedidos"
+        android:name="com.decode.bookstore_admin.ui.fragments.PedidosFragment"
+        android:label="Pedidos"
+        />
+
+    <fragment
+        android:id="@+id/categoriaFragment"
+        tools:layout="@layout/fragment_categoria"
+        android:name="com.decode.bookstore_admin.ui.fragments.CategoriaFragment"
+        android:label="Categoria"
+        />
+
+    <fragment
+        android:id="@+id/livrosFragment"
+        tools:layout="@layout/fragment_livros"
+        android:name="com.decode.bookstore_admin.ui.fragments.LivrosFragment"
+        android:label="Livros"
+        />
+
+<!--    <fragment-->
+<!--        android:id="@+id/leitoresFragments"-->
+<!--        tools:layout="@layout/fragment_leitores"-->
+<!--        android:name="com.decode.bookstore_admin.ui.fragments.LeitoresFragment"-->
+<!--        android:label="Leitores"-->
+<!--        />-->
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        tools:layout="@layout/fragment_details"
+        android:name="com.decode.bookstore_admin.ui.fragments.DetailsFragment"
+        android:label="Details"
+        />
+
+    <fragment
+        android:id="@+id/criarBooksFragment"
+        tools:layout="@layout/fragment_details"
+        android:name="com.decode.bookstore_admin.ui.fragments.CriarFragment"
+        android:label="Details"
+        />
+
+</navigation>
