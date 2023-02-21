@@ -1,5 +1,8 @@
 # BookStore
 
+## what is bookstore
+BookStore is a online space in which books are stored, users can request them.
+
 
 # Screenshots
 
